@@ -12,6 +12,10 @@ namespace Telefonbuch
     {
         static void Main(string[] args)
         {
+            Telefonbuch();
+        }
+
+        public static void Telefonbuch() {
 
             // Legt fest in welcher datei alles gespeichert wird
             string Filename = @"C:\telefonbuch.txt";
@@ -79,6 +83,7 @@ namespace Telefonbuch
 
             // wenn nichts gefunden, nichts zurückgeben
             return "Gibt es nicht!";
+            Telefonbuch();
 
         }
 
